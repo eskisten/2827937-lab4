@@ -1,10 +1,15 @@
 .spinner {
     /* Your styling */
+    width: 40px;
+    height: 40px;
+    
+    border: 7px;
+    border-top: 5px solid coral;
+    border-radius: 55%;
     animation: spin 1s linear infinite; /* Required */
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
@@ -19,7 +24,7 @@
 }
 
 .error{
-    color: coral;
+    color: gold;
     text-align: center;
 }
 
