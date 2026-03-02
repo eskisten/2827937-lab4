@@ -15,12 +15,13 @@
 
 .country-card {
     background-color: darkviolet;
-    border: 2px deeppink;
+    border: 30px deeppink;
     padding: 20px;
 }
 
 .border-grid{
     display: grid;
+    background-color: deeppink;
 }
 
 .error{
